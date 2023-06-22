@@ -3,6 +3,7 @@ package microwave;
 import java.util.Scanner;
 
 import aaaa.Power;
+import bbbb.start;
 import cccc.Timer;
 
 public class common {
@@ -10,7 +11,8 @@ public class common {
 		Scanner input = new Scanner(System.in);
 		int n = input.nextInt();
 		Timer t = new Timer();
-		int a;
+		start s = new start();
+		int a = 0;
 		while (true) {
 			
 			switch(n){
@@ -25,6 +27,7 @@ public class common {
 				a = t.timer();
 
 			case 3: 
+				s.start(a);
 				break;
 			
 			default: 
