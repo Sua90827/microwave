@@ -8,9 +8,9 @@ public class Power {
 		Scanner input = new Scanner(System.in);
 		String power = input.next();
 		int answer = 0;
-		if(power=="y") {
+		if(power.equals("y")) {
 			answer = 2;
-		}else if(power=="n") {
+		}else if(power.equals("n")) {
 			answer = 0;
 		}
 		else {

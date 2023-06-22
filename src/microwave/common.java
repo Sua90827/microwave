@@ -9,6 +9,7 @@ import cccc.Timer;
 public class common {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		System.out.println("동작을 시키려면 1번을 눌러주세요.");
 		int n = input.nextInt();
 		Timer t = new Timer();
 		start s = new start();
