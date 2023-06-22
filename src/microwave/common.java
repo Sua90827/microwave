@@ -2,6 +2,8 @@ package microwave;
 
 import java.util.Scanner;
 
+import aaaa.Power;
+
 public class common {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
@@ -11,7 +13,11 @@ public class common {
 			
 			switch(n){
 			case 1: 
-				break;
+				Power p = new Power();
+				int x = p.power();
+				if(x==0 ||x==1) {
+					break;
+				}
 			
 			case 2: 
 				break;
