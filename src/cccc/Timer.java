@@ -6,7 +6,7 @@ import java.time.ZonedDateTime;
 import java.util.Scanner;
 
 public class Timer {
-	public int timer(int num) {
+	public int timer() {
 		
 		Scanner sc = new Scanner(System.in);
 		
